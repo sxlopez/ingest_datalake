@@ -1,0 +1,4 @@
+Faker==25.2.0
+pandas==3.0.2
+boto3==1.42.97
+pyarrow==24.0.0
