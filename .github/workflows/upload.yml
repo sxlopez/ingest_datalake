@@ -2,7 +2,7 @@ name: Daily students.csv upload to S3
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # 21:00 UTC = 4 pm Colombia
+    - cron: ${{ vars.SCHEDULE_CRON }}
   workflow_dispatch:
 
 jobs:
